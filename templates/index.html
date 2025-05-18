@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuerdos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>📸 Recuerdos</h1>
+
+    <h2>Fotos</h2>
+    <div class="media-container">
+        {% for foto in fotos %}
+            <img src="{{ url_for('static', filename=foto) }}" alt="Foto">
+        {% endfor %}
+    </div>
+</body>
+</html>
