@@ -1,2 +1,2 @@
 # recuerdos-flask
-Prueba de pryecto
+Prueba de proyecto
